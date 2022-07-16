@@ -25,21 +25,21 @@ console.log(inventors);
 inventors[inventors.length-1][1]=1800;
 console.log(inventors);
 
-let newArray=stringVal.split(" ");
+let newArray1=stringVal.split(" ");
 console.log(newArray);
 
-let newString=newArray.join();
+let newString1=newArray.join();
 console.log(newString);
 
 newString=newArray.join(" ### ");
 console.log(newString);
 
-let newString=stringVal.split("")[0].toUpperCase();
+let newString3=stringVal.split("")[0].toUpperCase();
 
 
 let stringVal = "build with Visual Studio Code, anywhere, anytime, entirely in your browser";
 
-let newString=stringVal.split("")[0].toUpperCase();
+let newString2=stringVal.split("")[0].toUpperCase();
 console.log(newString);
 
 
@@ -69,9 +69,9 @@ console.log(merhabaIndex);
 secondList[secondList.indexOf("merhaba")]="yeni";
 console.log(secondList);
 
-const data=['car','car','truck','bike','walk','truck','van','bike','car', 'bike'];
+const qa=['car','car','truck','bike','walk','truck','van','bike','car', 'bike'];
 
-let x=data.lastIndexOf("car");
+let x1=data.lastIndexOf("car");
 console.log(x);
 
 console.log(data.includes("truck1"));
@@ -91,11 +91,11 @@ let seconItems = [4, 5, 6];
 let thirdItems = [...firstItems,...seconItems];
 console.log(thirdItems);
 
-let x=firstItems.shift();
+let x2=firstItems.shift();
 console.log(x);
 console.log(firstItems);
 
-let x=firstItems.unshift(55,22,54);
+let x3=firstItems.unshift(55,22,54);
 
 console.log(firstItems);
 console.log(x);
